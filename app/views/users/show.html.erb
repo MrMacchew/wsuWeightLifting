@@ -53,6 +53,7 @@
 			<td><%= lift.name %></td>
 			<td><%= lift.rep %></td>
 			<td><%= lift.weight %></td>
+			<td><%= lift.created_at.strftime("%m/%d/%y") %></td>
 		</tr>
 		<% end %>
 	</table>

@@ -69,6 +69,6 @@ class LiftsController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def lift_params
-      params.require(:lift).permit(:name, :userId, :weight, :rep, :type)
+      params.require(:lift).permit(:name, :user_id, :weight, :rep, :lift_type)
     end
 end
