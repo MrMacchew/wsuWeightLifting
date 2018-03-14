@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  userId: 1
+  weight: 1
+  rep: 1
+  type: 
+
+two:
+  name: MyString
+  userId: 1
+  weight: 1
+  rep: 1
+  type: 

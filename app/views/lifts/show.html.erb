@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @lift.name %>
+</p>
+
+<p>
+  <strong>Userid:</strong>
+  <%= @lift.user_id %>
+</p>
+
+<p>
+  <strong>Weight:</strong>
+  <%= @lift.weight %>
+</p>
+
+<p>
+  <strong>Rep:</strong>
+  <%= @lift.rep %>
+</p>
+
+<p>
+  <strong>Type:</strong>
+  <%= @lift.type %>
+</p>
+
+<%= link_to 'Edit', edit_lift_path(@lift) %> |
+<%= link_to 'Back', lifts_path %>

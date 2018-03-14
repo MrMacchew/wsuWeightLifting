@@ -1,0 +1,62 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @user.name %>
+</p>
+
+<p>
+  <strong>Username:</strong>
+  <%= @user.username %>
+</p>
+
+<p>
+  <strong>Email:</strong>
+  <%= @user.email %>
+</p>
+
+<p>
+  <strong>Benchmax:</strong>
+  <%= @user.benchMax %>
+</p>
+
+<p>
+  <strong>Squatmax:</strong>
+  <%= @user.squatMax %>
+</p>
+
+<p>
+  <strong>Bicurlmax:</strong>
+  <%= @user.bicurlMax %>
+</p>
+
+<p>
+  <strong>Triextmax:</strong>
+  <%= @user.triextMax %>
+</p>
+
+<p>
+  <strong>Legextmax:</strong>
+  <%= @user.legextMax %>
+</p>
+
+<p>
+  <strong>Legcurlmax:</strong>
+  <%= @user.legcurlMax %>
+</p>
+
+<p>
+	<strong>Lifts:</strong>
+	<table>
+		<% @user.lifts.each do |lift| %>
+		<tr>
+			<td><%= lift.name %></td>
+			<td><%= lift.rep %></td>
+			<td><%= lift.weight %></td>
+		</tr>
+		<% end %>
+	</table>
+  
+</p>
+<%= link_to 'Edit', edit_user_path(@user) %> |
+<%= link_to 'Back', users_path %>

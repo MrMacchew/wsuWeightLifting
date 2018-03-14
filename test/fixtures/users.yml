@@ -1,0 +1,23 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  username: MyString
+  email: MyString
+  benchMax: 1
+  squatMax: 1
+  bicurlMax: 1
+  triextMax: 1
+  legextMax: 1
+  legcurlMax: 1
+
+two:
+  name: MyString
+  username: MyString
+  email: MyString
+  benchMax: 1
+  squatMax: 1
+  bicurlMax: 1
+  triextMax: 1
+  legextMax: 1
+  legcurlMax: 1
